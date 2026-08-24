@@ -1,0 +1,36 @@
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(184, 216, 216);
+    border-radius: 10px;
+    width: 100%;
+}
+
+#navbar .links {
+    margin-left: 100px;
+}
+
+#navbar .links a {
+    color: rgb(0, 99, 99);
+    font-weight: 600;
+    font-size: 16pt;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#navbar .logo img{
+    width: 100px;
+    border-radius: 10px;
+}
+
+#navbar a:hover {
+    color: rgb(0, 146, 146);
+    text-decoration: underline;
+}
