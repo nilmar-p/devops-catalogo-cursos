@@ -157,3 +157,67 @@ body {
     text-align: left;
     margin-bottom: 10px;
 }
+
+/*cursos*/
+#cursos {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#cursos h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#cursos > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cursos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.curso-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.curso-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.curso-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.curso-card p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.curso-card a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.curso-card a:hover {
+    background-color: #555;
+}
