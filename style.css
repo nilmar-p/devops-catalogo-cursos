@@ -221,3 +221,67 @@ body {
 .curso-card a:hover {
     background-color: #555;
 }
+
+/*versão expandida de curso*/
+#curso-detalhe {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.curso-header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.curso-header img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.curso-header h1 {
+    margin-bottom: 8px;
+}
+
+.curso-info {
+    color: #666;
+    font-size: 15px;
+}
+
+.curso-conteudo h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.curso-conteudo p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.curso-conteudo ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.curso-conteudo li {
+    margin-bottom: 8px;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+
+.btn-voltar:hover {
+    background-color: #555;
+}
